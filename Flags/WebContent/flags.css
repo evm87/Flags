@@ -1,0 +1,189 @@
+/*Used margin:auto to center content*/
+body {
+	background-color: #C7C1C1;
+	padding: 1px 100px;
+}
+
+/*Sets all content to center and allows page to fit screen between 450px and 960px*/
+#content {
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+	max-width: 960px;
+	min-width: 450px;
+}
+
+/*Set margin to 0 to remove gray background space between boxes (see multiple examples throughout code)*/
+div {
+	background-color: white;
+	margin: 0;
+}
+
+/*Sets all headers to have a border and white background*/
+hr {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #5D2C2C;
+	background-color: white;
+	margin: 0;
+}
+
+p {
+	font-family: palatino linotype;
+	margin: 0;
+	background-color: white;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+ul {
+
+	font-family: palatino linotype;
+	font-size: 100%;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+	font-family: lucida sans unicode;
+	color: gray;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+	background-color: white;
+	margin: 0;
+}
+
+/*Sets the border and allows background to be non-repeating for the flags image*/
+h1 {
+	border-top-style: solid;
+	border-top-width: 30px;
+	border-top-color: #5D2C2C;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+	border-bottom-color: #5D2C2C;
+	padding: 25px;
+	background: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc8004/flags/css/70-flags.png") no-repeat;
+	background-position: right center;
+	background-color: white;
+}
+
+h2 {
+	background: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc8004/flags/css/12-dkgrey.png") 10px center no-repeat;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	
+}
+
+h3 {
+	background: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc8004/flags/css/8-dkgrey.png") 10px center no-repeat;
+	padding-left: 22px;
+	padding-bottom: 10px;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color: #5D2C2C;
+}
+
+#navbar {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	text-align: right;
+	background-color: #5D2C2C;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+
+    display: inline-block;
+	background-color: #5D2C2C;
+    text-decoration: none;
+	margin-right: 5px;
+
+}
+
+#navbar ul ul {
+	
+	display: none;
+}
+
+#navbar li a {
+	text-decoration: none;
+	color: #C7C1C1;
+}
+
+#videobox {
+	background: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc8004/flags/css/460x320-box.png") left center no-repeat;
+	float: right;
+	padding: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#photobadge {
+	background: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc8004/flags/css/420x370-box.png") right center no-repeat;
+	float: right;
+	padding: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/*Used to position the image to the right in #national*/
+img {
+	float: right;
+}
+
+ /*Used to specify no border around images*/
+img.letters {
+	border-width: 1px;
+	border-style: solid;
+}
+
+/*Used in spacing paragraphs from headers*/
+p.padding {
+	padding-top: 25px;
+}
+
+#letters {
+	font-weight: bold;
+}
+
+#numbers {
+	font-weight: bold;
+}
+
+/*Used to specify large letters in Letters and Numbers paragraphs*/
+p.display {
+	display: inline-table;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-left: 15px;
+	font-size: 100%;
+}
+ /*Used to specify caps in Numbers paragraph*/
+.firstNumber {
+	font-size: 170%;
+}
+
+/*Used to edit the Wikipedia link at bottom of page*/
+.wiki {
+	font-size: 80%;
+	padding: 20px;
+	text-align: right;
+}
+
+/*Used to place flag image in National Flags paragraph without altering HTML */
+img.national {
+	content: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc8004/flags/css/3-flags75.png");
+	background-color: white;
+	float: right;
+}

@@ -1,0 +1,65 @@
+img 
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+legend 
+{
+	font-family: palatino linotype;
+}
+
+h1
+{
+	font-family: lucida sans unicode;
+	margin: 0px;
+	padding: 10px;
+	color: gray;
+	border-top-style: solid;
+	border-top-width: 30px;
+	border-top-color: #5D2C2C;
+	border-bottom-style: solid;
+	border-bottom-color: #5D2C2C;
+	border-bottom-width: 10px;
+
+	
+}
+
+h2
+{
+	font-family: lucida sans unicode;
+	margin: 0px;
+	padding: 10px;
+	color: gray;
+	
+}
+
+p
+{
+	font-family: palatino linotype;
+}
+
+#content {
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+	max-width: 960px;
+	min-width: 450px;
+}
+
+body {
+	background-color: #C7C1C1;
+	padding: 1px 100px;
+}
+
+div
+{
+	background-color: white;
+}
+
+fieldset
+{
+	border-style: solid;
+	border-width: 5px;
+	border-color: #5D2C2C
+}
